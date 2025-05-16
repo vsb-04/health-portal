@@ -1,0 +1,49 @@
+<svg width="600" height="350" viewBox="0 0 600 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="350" rx="30" fill="#F5F7FA"/>
+  <!-- Left column hero -->
+  <rect x="30" y="40" width="320" height="270" rx="20" fill="#FFFFFF" filter="url(#shadow)" />
+  <text x="55" y="90" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="bold" fill="#22223B">
+    Write with Confidence
+  </text>
+  <text x="55" y="130" font-family="Inter, Arial, sans-serif" font-size="18" fill="#4A4E69">
+    Get real-time feedback and suggestions as you type.
+  </text>
+  <rect x="55" y="160" width="180" height="44" rx="22" fill="#2EC4B6"/>
+  <text x="95" y="190" font-family="Inter, Arial, sans-serif" font-size="18" fill="#fff" font-weight="bold">
+    Get Started
+  </text>
+  <!-- Sidebar login -->
+  <rect x="380" y="60" width="180" height="230" rx="16" fill="#EDF2FB"/>
+  <text x="400" y="100" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="bold" fill="#22223B">
+    Login
+  </text>
+  <rect x="400" y="120" width="140" height="32" rx="8" fill="#fff" stroke="#E0E1DD"/>
+  <text x="408" y="142" font-family="Inter, Arial, sans-serif" font-size="14" fill="#B0B3B8">
+    Email
+  </text>
+  <rect x="400" y="160" width="140" height="32" rx="8" fill="#fff" stroke="#E0E1DD"/>
+  <text x="408" y="182" font-family="Inter, Arial, sans-serif" font-size="14" fill="#B0B3B8">
+    Password
+  </text>
+  <rect x="400" y="210" width="140" height="36" rx="18" fill="#2EC4B6"/>
+  <text x="445" y="235" font-family="Inter, Arial, sans-serif" font-size="16" fill="#fff" font-weight="bold">
+    Sign In
+  </text>
+  <!-- Top nav bar -->
+  <rect x="0" y="0" width="600" height="48" rx="16" fill="#fff" filter="url(#shadow2)" />
+  <text x="40" y="30" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="bold" fill="#2EC4B6">
+    ModernSite
+  </text>
+  <rect x="500" y="12" width="70" height="24" rx="12" fill="#2EC4B6"/>
+  <text x="515" y="29" font-family="Inter, Arial, sans-serif" font-size="14" fill="#fff" font-weight="bold">
+    Menu
+  </text>
+  <defs>
+    <filter id="shadow" x="0" y="0" width="600" height="350">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#E0E1DD"/>
+    </filter>
+    <filter id="shadow2" x="0" y="0" width="600" height="48">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#E0E1DD"/>
+    </filter>
+  </defs>
+</svg>
