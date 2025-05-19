@@ -1,135 +1,97 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="800" height="1270" viewBox="0 0 800 1270" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .rect { stroke: black; stroke-width: 1; fill: #f0f0f0; }
-    .text { font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; dominant-baseline: middle; }
-    .placeholder { fill: #ddd; stroke: black; stroke-width: 1;}
-    .button-text { fill: white; font-weight: bold; }
-    .title-text { font-size: 16px; font-weight: bold; }
-    .body-text { font-size: 11px; text-anchor: start; dominant-baseline: auto; }
-  </style>
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
   <!-- Header -->
-  <rect x="10" y="10" width="780" height="50" class="rect"/>
-  <text x="60" y="35" class="text title-text">LOGO</text>
-  <text x="250" y="35" class="text">Nav Link 1 | Nav Link 2 | Nav Link 3</text>
-  <rect x="580" y="20" width="100" height="30" class="placeholder"/>
-  <text x="630" y="35" class="text">Search...</text>
-  <text x="730" y="35" class="text">Cart (0)</text>
-
-  <!-- Breadcrumbs -->
-  <rect x="10" y="70" width="780" height="30" class="rect"/>
-  <text x="20" y="85" class="text" style="text-anchor: start;">Home > Category > Product Name</text>
-
-  <!-- Main Product Section -->
-  <g id="product-main">
-    <!-- Image Gallery (Left) -->
-    <rect x="10" y="110" width="380" height="380" class="placeholder"/>
-    <text x="200" y="290" class="text title-text">Main Product Image</text>
-    <rect x="10" y="500" width="80" height="80" class="placeholder"/>
-    <text x="50" y="540" class="text">Thumb1</text>
-    <rect x="100" y="500" width="80" height="80" class="placeholder"/>
-    <text x="140" y="540" class="text">Thumb2</text>
-    <rect x="190" y="500" width="80" height="80" class="placeholder"/>
-    <text x="230" y="540" class="text">Thumb3</text>
-    <rect x="280" y="500" width="80" height="80" class="placeholder"/>
-    <text x="320" y="540" class="text">Thumb4</text>
-
-    <!-- Product Details (Right) -->
-    <text x="420" y="130" class="text" style="font-size: 20px; text-anchor: start; font-weight: bold;">Product Title - Long Name</text>
-    <text x="420" y="160" class="text body-text">Item #123456</text>
-    <text x="420" y="185" class="text" style="text-anchor: start; font-size: 18px; color: #28a745; font-weight:bold;">$99.99</text>
-    <text x="500" y="185" class="text body-text" style="text-decoration: line-through;">$120.00</text>
-    <text x="420" y="210" class="text body-text">★★★★☆ (150 Reviews)</text>
-    
-    <text x="420" y="245" class="text body-text" style="font-weight: bold;">Color:</text>
-    <circle cx="430" cy="270" r="12" style="fill: #dc3545; stroke: black;"/>
-    <circle cx="465" cy="270" r="12" style="fill: #007bff; stroke: #6c757d; stroke-width:2;"/>
-    <circle cx="500" cy="270" r="12" style="fill: #000000; stroke: black;"/>
-
-    <text x="420" y="305" class="text body-text" style="font-weight: bold;">Size:</text>
-    <rect x="420" y="320" width="40" height="30" class="rect" style="fill: white;"/> <text x="440" y="335" class="text">S</text>
-    <rect x="470" y="320" width="40" height="30" class="rect" style="fill: #e9ecef;"/> <text x="490" y="335" class="text">M</text>
-    <rect x="520" y="320" width="40" height="30" class="rect" style="fill: white;"/> <text x="540" y="335" class="text">L</text>
-    <rect x="570" y="320" width="40" height="30" class="rect" style="fill: white;"/> <text x="590" y="335" class="text">XL</text>
-
-    <text x="420" y="375" class="text body-text" style="font-weight: bold;">Quantity:</text>
-    <rect x="420" y="390" width="30" height="30" class="rect" style="fill:white;"/> <text x="435" y="405" class="text" style="font-size:18px;">-</text>
-    <rect x="450" y="390" width="40" height="30" class="rect" style="fill:white;"/> <text x="470" y="405" class="text" style="font-size:16px;">1</text>
-    <rect x="490" y="390" width="30" height="30" class="rect" style="fill:white;"/> <text x="505" y="405" class="text" style="font-size:18px;">+</text>
-
-    <rect x="420" y="440" width="360" height="45" style="fill: #007bff; stroke: #0056b3; border-radius: 5px;"/>
-    <text x="600" y="462.5" class="text button-text title-text">ADD TO CART</text>
-
-    <rect x="420" y="495" width="360" height="40" class="rect" style="fill: white; stroke: #ced4da;"/>
-    <text x="600" y="515" class="text" style="fill: #007bff;">♡ Add to Wishlist</text>
-    
-    <text x="420" y="550" class="body-text" style="line-height:1.4;">
-        <tspan x="420" dy="0em">Brief product description snippet here. Lorem</tspan>
-        <tspan x="420" dy="1.2em">ipsum dolor sit amet, consectetur adipiscing</tspan>
-        <tspan x="420" dy="1.2em">elit. Mauris vitae erat.</tspan>
-    </text>
-  </g>
-
-  <!-- Product Info Tabs -->
-  <g id="product-tabs" transform="translate(0, 60)"> 
-    <rect x="10" y="590" width="190" height="40" class="rect" style="fill: #e9ecef; border-bottom: none;"/>
-    <text x="105" y="610" class="text" style="font-weight:bold;">Description</text>
-    <rect x="200" y="590" width="190" height="40" class="rect" style="fill: #f0f0f0;"/>
-    <text x="295" y="610" class="text">Reviews (150)</text>
-    <rect x="390" y="590" width="190" height="40" class="rect" style="fill: #f0f0f0;"/>
-    <text x="485" y="610" class="text">Shipping</text>
-    <rect x="580" y="590" width="210" height="40" class="rect" style="fill: #f0f0f0;"/>
-    <text x="685" y="610" class="text">Q&A</text>
-    
-    <line x1="10" y1="630" x2="790" y2="630" style="stroke:black; stroke-width:1;"/>
-
-    <rect x="10" y="631" width="780" height="150" class="rect" style="fill:white; border-top:none;"/>
-    <text x="20" y="650" class="body-text" style="line-height:1.4;">
-        <tspan x="20" dy="0em">Full product description text goes here. Multiple lines of text detailing features, benefits, materials, etc.</tspan>
-        <tspan x="20" dy="1.2em">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</tspan>
-        <tspan x="20" dy="1.2em">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</tspan>
-        <tspan x="20" dy="1.2em">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</tspan>
-    </text>
-  </g>
-
-  <!-- Recommended Products -->
-  <text x="400" y="826" class="text title-text" style="font-size: 18px;">You Might Also Like</text>
-  <g id="recommended-item-1">
-    <rect x="10" y="850" width="185" height="240" class="rect"/>
-    <rect x="20" y="860" width="165" height="120" class="placeholder"/>
-    <text x="102" y="995" class="text">Product 1 Name</text>
-    <text x="102" y="1015" class="text" style="font-weight:bold;">$49.99</text>
-    <rect x="30" y="1035" width="145" height="30" style="fill:#007bff; stroke:#0056b3;"/>
-    <text x="102" y="1050" class="text button-text">View</text>
-  </g>
-  <g id="recommended-item-2">
-    <rect x="205" y="850" width="185" height="240" class="rect"/>
-    <rect x="215" y="860" width="165" height="120" class="placeholder"/>
-    <text x="297" y="995" class="text">Product 2 Name</text>
-    <text x="297" y="1015" class="text" style="font-weight:bold;">$59.99</text>
-    <rect x="225" y="1035" width="145" height="30" style="fill:#007bff; stroke:#0056b3;"/>
-    <text x="297" y="1050" class="text button-text">View</text>
-  </g>
-  <g id="recommended-item-3">
-    <rect x="400" y="850" width="185" height="240" class="rect"/>
-    <rect x="410" y="860" width="165" height="120" class="placeholder"/>
-    <text x="492" y="995" class="text">Product 3 Name</text>
-    <text x="492" y="1015" class="text" style="font-weight:bold;">$69.99</text>
-    <rect x="420" y="1035" width="145" height="30" style="fill:#007bff; stroke:#0056b3;"/>
-    <text x="492" y="1050" class="text button-text">View</text>
-  </g>
-  <g id="recommended-item-4">
-    <rect x="595" y="850" width="185" height="240" class="rect"/>
-    <rect x="605" y="860" width="165" height="120" class="placeholder"/>
-    <text x="687" y="995" class="text">Product 4 Name</text>
-    <text x="687" y="1015" class="text" style="font-weight:bold;">$79.99</text>
-    <rect x="615" y="1035" width="145" height="30" style="fill:#007bff; stroke:#0056b3;"/>
-    <text x="687" y="1050" class="text button-text">View</text>
-  </g>
-
-  <!-- Footer -->
-  <rect x="10" y="1120" width="780" height="100" class="rect" style="fill: #343a40;"/>
-  <text x="400" y="1170" class="text" style="fill:white;">Footer Links | About Us | Contact Us | Terms & Conditions | © 2024 E-commerce Site</text>
+  <rect width="800" height="70" fill="#ffffff" stroke="#e9ecef" stroke-width="1"/>
+  <circle cx="50" cy="35" r="20" fill="#4263eb"/>
+  <text x="85" y="40" font-family="Arial" font-size="16" font-weight="bold" fill="#212529">BRAND</text>
+  
+  <!-- Navigation -->
+  <text x="200" y="40" font-family="Arial" font-size="14" fill="#495057">Home</text>
+  <text x="260" y="40" font-family="Arial" font-size="14" fill="#495057">Shop</text>
+  <text x="310" y="40" font-family="Arial" font-size="14" fill="#495057">About</text>
+  <text x="370" y="40" font-family="Arial" font-size="14" fill="#495057">Contact</text>
+  
+  <!-- Cart Icon -->
+  <circle cx="740" cy="35" r="15" fill="#e9ecef"/>
+  <path d="M733,35 L732,31 C732,28 735,25 740,25 C745,25 748,28 748,31 L747,35" stroke="#212529" stroke-width="1.5" fill="none"/>
+  <path d="M733,35 L730,45 L750,45 L747,35" stroke="#212529" stroke-width="1.5" fill="#e9ecef"/>
+  <circle cx="742" cy="30" r="6" fill="#fa5252" stroke="#ffffff" stroke-width="1"/>
+  <text x="740" y="33" font-family="Arial" font-size="8" fill="#ffffff" text-anchor="middle">2</text>
+  
+  <!-- Content Container -->
+  <rect x="50" y="100" width="700" height="450" fill="#ffffff" stroke="#e9ecef" stroke-width="1" rx="4"/>
+  
+  <!-- Product Image Gallery -->
+  <rect x="80" y="130" width="360" height="360" fill="#f1f3f5" rx="2"/>
+  <rect x="100" y="150" width="320" height="320" fill="#ffffff" stroke="#e9ecef" stroke-width="1"/>
+  
+  <!-- Main product image -->
+  <rect x="110" y="160" width="300" height="300" fill="#e9ecef" rx="2"/>
+  
+  <!-- Thumbnails -->
+  <rect x="80" y="500" width="70" height="70" fill="#ffffff" stroke="#4263eb" stroke-width="2" rx="2"/>
+  <rect x="160" y="500" width="70" height="70" fill="#ffffff" stroke="#dee2e6" stroke-width="1" rx="2"/>
+  <rect x="240" y="500" width="70" height="70" fill="#ffffff" stroke="#dee2e6" stroke-width="1" rx="2"/>
+  <rect x="320" y="500" width="70" height="70" fill="#ffffff" stroke="#dee2e6" stroke-width="1" rx="2"/>
+  
+  <!-- Product Details -->
+  <text x="480" y="150" font-family="Arial" font-size="14" fill="#868e96">CATEGORY</text>
+  <text x="480" y="180" font-family="Arial" font-size="24" font-weight="bold" fill="#212529">Premium Product Name</text>
+  
+  <!-- Price -->
+  <text x="480" y="220" font-family="Arial" font-size="22" font-weight="bold" fill="#4263eb">$199.99</text>
+  <text x="560" y="220" font-family="Arial" font-size="16" text-decoration="line-through" fill="#adb5bd">$249.99</text>
+  
+  <!-- Rating -->
+  <path d="M480,240 L490,240 L493,230 L496,240 L506,240 L498,245 L501,255 L493,250 L485,255 L488,245 Z" fill="#fcc419"/>
+  <path d="M510,240 L520,240 L523,230 L526,240 L536,240 L528,245 L531,255 L523,250 L515,255 L518,245 Z" fill="#fcc419"/>
+  <path d="M540,240 L550,240 L553,230 L556,240 L566,240 L558,245 L561,255 L553,250 L545,255 L548,245 Z" fill="#fcc419"/>
+  <path d="M570,240 L580,240 L583,230 L586,240 L596,240 L588,245 L591,255 L583,250 L575,255 L578,245 Z" fill="#fcc419"/>
+  <path d="M600,240 L610,240 L613,230 L616,240 L626,240 L618,245 L621,255 L613,250 L605,255 L608,245 Z" fill="#e9ecef"/>
+  <text x="640" y="245" font-family="Arial" font-size="14" fill="#868e96">(24 Reviews)</text>
+  
+  <!-- Product Description -->
+  <text x="480" y="280" font-family="Arial" font-size="16" fill="#212529">Product Description</text>
+  <rect x="480" y="290" width="250" height="1" fill="#e9ecef"/>
+  
+  <!-- Description lines -->
+  <rect x="480" y="310" width="250" height="6" fill="#e9ecef" rx="3"/>
+  <rect x="480" y="326" width="230" height="6" fill="#e9ecef" rx="3"/>
+  <rect x="480" y="342" width="240" height="6" fill="#e9ecef" rx="3"/>
+  <rect x="480" y="358" width="200" height="6" fill="#e9ecef" rx="3"/>
+  
+  <!-- Quantity Selector -->
+  <text x="480" y="400" font-family="Arial" font-size="16" fill="#212529">Quantity</text>
+  <rect x="480" y="410" width="120" height="40" fill="#ffffff" stroke="#dee2e6" stroke-width="1" rx="4"/>
+  
+  <!-- Minus button -->
+  <rect x="485" y="415" width="30" height="30" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" rx="4"/>
+  <line x1="490" y1="430" x2="510" y2="430" stroke="#495057" stroke-width="2"/>
+  
+  <!-- Quantity display -->
+  <text x="535" y="435" font-family="Arial" font-size="16" font-weight="bold" fill="#212529" text-anchor="middle">1</text>
+  
+  <!-- Plus button -->
+  <rect x="565" y="415" width="30" height="30" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" rx="4"/>
+  <line x1="570" y1="430" x2="590" y2="430" stroke="#495057" stroke-width="2"/>
+  <line x1="580" y1="420" x2="580" y2="440" stroke="#495057" stroke-width="2"/>
+  
+  <!-- Subtotal -->
+  <text x="480" y="480" font-family="Arial" font-size="16" fill="#212529">Subtotal:</text>
+  <text x="550" y="480" font-family="Arial" font-size="16" font-weight="bold" fill="#212529">$199.99</text>
+  
+  <!-- Add to Cart Button -->
+  <rect x="480" y="500" width="150" height="50" fill="#4263eb" rx="4"/>
+  <text x="555" y="530" font-family="Arial" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">Add to Cart</text>
+  
+  <!-- Buy Now Button -->
+  <rect x="640" y="500" width="100" height="50" fill="#ffffff" stroke="#4263eb" stroke-width="2" rx="4"/>
+  <text x="690" y="530" font-family="Arial" font-size="16" font-weight="bold" fill="#4263eb" text-anchor="middle">Buy Now</text>
+  
+  <!-- Mobile View Indicator -->
+  <rect x="50" y="570" width="700" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+  <text x="400" y="585" font-family="Arial" font-size="12" fill="#868e96" text-anchor="middle">Responsive design - adapts to mobile and desktop</text>
 </svg>
