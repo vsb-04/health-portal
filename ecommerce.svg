@@ -66,7 +66,7 @@
     <text x="420" y="550" class="body-text" style="line-height:1.4;">
         <tspan x="420" dy="0em">Brief product description snippet here. Lorem</tspan>
         <tspan x="420" dy="1.2em">ipsum dolor sit amet, consectetur adipiscing</tspan>
-        <tspan x="420" dy="1.2em">elit. Mauris广场舞.</tspan>
+        <tspan x="420" dy="1.2em">elit. Mauris vitae erat.</tspan>
     </text>
   </g>
 
